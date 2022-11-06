@@ -8,7 +8,7 @@ public class Main {
         List<Integer> nums = new ArrayList<>(List.of(1, 1, 2, 3, 4, 4, 5, 5, 6, 7));
 
         for (int i = 0; i < nums.size(); i++) {
-            if (i % 2 == 0) {
+            if (!(i % 2 == 0)) {
                 System.out.println(nums.get(i));
             }
         }
