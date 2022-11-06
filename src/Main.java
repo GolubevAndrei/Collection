@@ -42,5 +42,6 @@ public class Main {
                 System.out.println(word.get(i) + " встречается в коллекции " + Collections.frequency(word, word.get(i)) + " раз");
             }
         }
+        System.out.println("Все задания выполнены");
     }
 }
